@@ -5,6 +5,8 @@
         <title>List</title>
     </head>
     <body>
-
+        {% for restaurant in my_list %}
+            <h1>{{ restaurant.restaurant_name }} <small>{{ restaurant.food_type }}</small></h1>
+        {% endfor %}
     </body>
 </html>
